@@ -90,17 +90,22 @@ AD9851ボード：ebayで中国直送＠1400、国内＠2000ぐらいから
 日本語と英語の局は内容などから確認しましたが、それ以外はshort-wave.infoやshortwaveschedule.comで調べました。東アジア系の他に、地球の裏の大西洋からもアフリカっぽい言葉で入ります。初めキルギスの局を受信したときは半信半疑でしたが、英語局なんか聞いていると、どうも本当らしいです。他にも色んな局や正体不明の電波がたくさん入ります。  
 　ギルバートセルに入れる局発の振幅は熱電圧よりずっと大きいですが、1/3fや1/5fのゴーストは出ません。むしろ強い局のスペクトルの折り返しで、532 kHz高かったり低かったりするのが出ます。RF前段をつけた後は、FMのゴーストが出てしまうようになりましたが、遠くからも聞けるようになったので許すことにしました。  
 
-![VOA](img/SDR3voa.jpg)
+![VOA](img/SDR3voa.jpg)  
 休日昼中の13 mバンド。Voice of America (21620 kHz)を選局しています。チベット語とのことですが、中国語と聞き分けられません、すみません。  
-![RCairo](img/SDR3cairo.jpg)
+
+![RCairo](img/SDR3cairo.jpg)  
 昼の19 mバンド。Radio Cairo (15230 kHz)を選局。結構強く、それらしい感じの言葉。スワヒリ語だそうです。  
-![KBS](img/SDR3kbs.jpg)
+
+![KBS](img/SDR3kbs.jpg)  
 昼の25 mバンド。KBS World Radio (11810 kHz)の独壇場。スペイン語。  
-![Tw](img/SDR3tw.jpg)
+
+![Tw](img/SDR3tw.jpg)  
 夜の31 mバンド。台湾国際放送の日本語放送(9735 kHz)を選局。中央の小さいピークです。  
-![CRI](img/SDR3cri.jpg)
+
+![CRI](img/SDR3cri.jpg)  
 こっちは49 mバンド。英語のChina Radio International (5955 kHz)を選局中。他にもいっぱい聞けない程（本当に）の放送局が見えてます。  
-![RHope](img/SDR3hope.jpg)
+
+![RHope](img/SDR3hope.jpg)  
 早朝の75 mバンド。Echo of Hope (希望のこだま放送, 3985 kHz)を選局。コリア語。朝からたくさんの放送が見えますが、ジャミングも多いです。  
 
 ### ファームウエア
