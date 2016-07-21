@@ -1,5 +1,5 @@
 ## ポータブルでスタンドアローンなソフトウエア・ラジオ，ゼネラルカバレッジ版
-## Portable and standalone SDR (or general coverage receiver)
+## Portable and standalone SDR using AD9851 DDS
 
 ---
 ### これまでのあらすじ
