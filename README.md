@@ -125,6 +125,4 @@ AD9851ボード：ebayで中国直送＠1400、国内＠2000ぐらいから
 掲載した情報は検証はしていますが、ご利用はご自身のご責任でどうぞ。DDSのボードを改造して壊したりしてもしりません。  
 ---Mizutani Lab---
 
-
-
-
+[![Analytics](https://ga-beacon.appspot.com/UA-80845358-6/SDR-V3/readme)](https://github.com/igrigorik/ga-beacon)
