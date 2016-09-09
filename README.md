@@ -2,11 +2,11 @@
 ## Portable and standalone SDR using AD9851 DDS
 
 ---
-### <a href="https://sites.google.com/site/portablesdr/">これまでのあらすじ</a>
+### <a href="https://sites.google.com/site/portablesdr/">ポータブルでスタンドアローンなソフトウェアラジオ</a> @Google sites
 * [１号](https://sites.google.com/site/portablesdr/sdr1)　脳までダイオード化される前に踏みとどまり１号となった。
 * [２号](https://sites.google.com/site/portablesdr/sdr2)　１号のピンチを救うために造られた。
-* Ｖ３　１号２号の目指した理想を胸に生まれた（このページ）。
-* [Ｘ](https://github.com/mizutanilab/SDR-X)　　Ｖ３の思いをうけて生まれ変わったが、いま一歩およばない。
+* [Ｖ３](https://sites.google.com/site/portablesdr/sdr-v3)　１号２号の目指した理想を胸に生まれた（このページと同じ）。
+* [Ｘ](https://sites.google.com/site/portablesdr/sdr-x)　　Ｖ３の思いをうけて生まれ変わったが、いま一歩およばない。
 
 ### 概要
 ポータブルでスタンドアローンなソフトウェアラジオの製作例です。DDSのAD9851とミキサ612を使った構成で、国内AMから案外遠くの短波放送まで聞けます。AD9851のデータシートにクアドラチャの応用例が書いてありますが、本当にやる人間がいたのか、という感じの回路です。スペクトル（スペクトラム）が出て、ウォーターフォール表示できて、長波～短波をカバーしています。一応、ゼネラルカバレッジ受信機ということで。
