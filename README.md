@@ -45,8 +45,6 @@ AD9851ボード：ebayで中国直送＠1400、国内＠2000ぐらいから
 
 <table>
 <tr><th>周波数(kHz)</th><th>局名</th><th>言語</th><th>発信地</th><th>FSゲイン</th><th>聞いた感じなど</th></tr>
-<tr><td>66.0-67.0</td><td>?</td><td>日？</td><td></td><td>-</td><td>ノイズ多。午前中。AMでない</td></tr>
-<tr><td>200.0</td><td>?</td><td>-</td><td></td><td>10*</td><td>ビート</td></tr>
 <tr><td>594.0</td><td>NHKラジオ第１</td><td>日</td><td></td><td>10*</td><td>普通</td></tr>
 <tr><td>693.0</td><td>NHKラジオ第２</td><td>日</td><td></td><td>10*</td><td>弱い</td></tr>
 <tr><td>810.0</td><td>AFN</td><td>英</td><td></td><td>8*</td><td>強い</td></tr>
