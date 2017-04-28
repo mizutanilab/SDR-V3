@@ -5,17 +5,17 @@
 ### 概要
 ポータブルでスタンドアローンなソフトウェアラジオの製作例です。DDSのAD9851とミキサ612を使った構成で、国内AMから案外遠くの短波放送まで聞けます。AD9851のデータシートにクアドラチャの応用例が書いてありますが、本当にやる人間がいたのか、という感じの回路です。スペクトル（スペクトラム）が出て、ウォーターフォール表示できて、長波～短波をカバーしています。一応、ゼネラルカバレッジ受信機ということで。
 
-<IMG alt=overall src="img/SDR3overall.jpg" align=left> 
+<IMG alt=overall src="img/SDR3overall.jpg"><BR> 
 全体像です。右側のプッシュボタンで、ゲインや選局を選んで、ツマミで値を変更します。周波数は、20 kHzから65000 kHzまで設定できます。国内の中波AM、短波のラジオNIKKEIや、いろんな海外放送が聞けます。選局は最小0.01 kHz刻みまで自由に変えられます。同調の選択度は結構高く、音声AM局で5 kHz離れていれば混信はほとんどありません。  
 　周波数の低い方は、長波帯の50 kHz以下がノイズが多くて聴くのが難しいですが、そこから上は使えます。高い方は、30 MHz以上は入ってくる局が少ないので、どこまで受信できているのかわかりません。  
-　銅色の部分にアナログ部が隠れています。右側の出来合いのモジュール２つがAD9851です。全体を秋月の樹脂ケースに入れて、大きさはおよそ横110 mm、縦100 mm、厚30 mmです。<BR clear=left>
+　銅色の部分にアナログ部が隠れています。右側の出来合いのモジュール２つがAD9851です。全体を秋月の樹脂ケースに入れて、大きさはおよそ横110 mm、縦100 mm、厚30 mmです。<BR>
 
-<IMG width=240 height=144 alt=LCD src="img/SDR3tbs.jpg" align=left>
+<IMG width=240 height=144 alt=LCD src="img/SDR3tbs.jpg"><BR>
 液晶表示です。上半分が周波数スペクトルです。横１ピクセルが4.16 kHz幅、スペクトル全幅は532 kHzです。中央のTBS(954 kHz)を選局しているところで、スペクトルの上の▼が選局位置を示しています。左の小さいのが米軍AFN(810 kHz)で、右の強いのが文化放送(1134 kHz)です。スペクトルの下はウォーターフォールです。だいたい１秒間隔で降りていきます。  
-　一番下の行は、左から音量（ゲイン）、復調（AMだけ）、周波数の順で、一番右が局発の位相調整です。プッシュボタンで項目を選んで反転表示させ、ツマミで値を変えます。横幅と局発の位相の件については一番下に書きました。<BR clear=left> 
+　一番下の行は、左から音量（ゲイン）、復調（AMだけ）、周波数の順で、一番右が局発の位相調整です。プッシュボタンで項目を選んで反転表示させ、ツマミで値を変えます。横幅と局発の位相の件については一番下に書きました。<BR> 
 
-<IMG alt=PCB src="img/SDR3inside.jpg" align=left>
-シールドの銅張基板を取ったところです。まだ製作途中の写真でRF前段がありません。コンデンサの多い回路です。<BR clear=left>
+<IMG alt=PCB src="img/SDR3inside.jpg"><BR>
+シールドの銅張基板を取ったところです。まだ製作途中の写真でRF前段がありません。コンデンサの多い回路です。<BR>
 
 ### 回路図
 ![circuit](img/SDR3circuit.jpg)
@@ -82,23 +82,23 @@ AD9851モジュール：eBayで中国直送＠1400、国内＠2000ぐらいか�
 日本語と英語の局は内容などから確認しましたが、それ以外はshort-wave.infoやshortwaveschedule.comで調べました。東アジア系の他に、地球の裏の大西洋からもアフリカっぽい言葉で入ります。初めキルギスの局を受信したときは半信半疑でしたが、英語局なんか聞いていると、どうも本当らしいです。他にも色んな局や正体不明の電波がたくさん入ります。  
 　ギルバートセルに入れる局発の振幅は熱電圧よりずっと大きいですが、1/3fや1/5fのゴーストは出ません。むしろ強い局のスペクトルの折り返しで、532 kHz高かったり低かったりするのが出ます。RF前段をつけた後は、FMのゴーストが出てしまうようになりましたが、遠くからも聞けるようになったので許すことにしました。  
 
-<IMG alt=VOA src="img/SDR3voa.jpg" align=left>
-休日昼中の13 mバンド。Voice of America (21620 kHz)を選局しています。チベット語とのことですが、中国語と聞き分けられません、すみません。<BR clear=left>
+<IMG alt=VOA src="img/SDR3voa.jpg"><BR>
+休日昼中の13 mバンド。Voice of America (21620 kHz)を選局しています。チベット語とのことですが、中国語と聞き分けられません、すみません。<BR>
 
-<IMG alt=RCairo src="img/SDR3cairo.jpg" align=left> 
-昼の19 mバンド。Radio Cairo (15230 kHz)を選局。結構強く、それらしい感じの言葉。スワヒリ語だそうです。<BR clear=left>
+<IMG alt=RCairo src="img/SDR3cairo.jpg"><BR> 
+昼の19 mバンド。Radio Cairo (15230 kHz)を選局。結構強く、それらしい感じの言葉。スワヒリ語だそうです。<BR>
 
-<IMG alt=KBS src="img/SDR3kbs.jpg" align=left>
-昼の25 mバンド。KBS World Radio (11810 kHz)の独壇場。スペイン語。<BR clear=left>
+<IMG alt=KBS src="img/SDR3kbs.jpg"><BR>
+昼の25 mバンド。KBS World Radio (11810 kHz)の独壇場。スペイン語。<BR>
 
-<IMG alt=Taiwan src="img/SDR3tw.jpg" align=left> 
-夜の31 mバンド。台湾国際放送の日本語放送(9735 kHz)を選局。中央の小さいピークです。<BR clear=left>
+<IMG alt=Taiwan src="img/SDR3tw.jpg"><BR> 
+夜の31 mバンド。台湾国際放送の日本語放送(9735 kHz)を選局。中央の小さいピークです。<BR>
 
-<IMG alt=CRI src="img/SDR3cri.jpg" align=left>
-49 mバンド。英語のChina Radio International (5955 kHz)を選局中。他にもいっぱい聞けない程（本当に）の放送局が見えてます。<BR clear=left>
+<IMG alt=CRI src="img/SDR3cri.jpg"><BR>
+49 mバンド。英語のChina Radio International (5955 kHz)を選局中。他にもいっぱい聞けない程（本当に）の放送局が見えてます。<BR>
 
-<IMG alt=RHope src="img/SDR3hope.jpg" align=left>
-早朝の75 mバンド。Echo of Hope (希望のこだま放送, 3985 kHz)を選局。コリア語。朝からたくさんの放送が見えますが、ジャミングも多いです。<BR clear=left>
+<IMG alt=RHope src="img/SDR3hope.jpg"><BR>
+早朝の75 mバンド。Echo of Hope (希望のこだま放送, 3985 kHz)を選局。コリア語。朝からたくさんの放送が見えますが、ジャミングも多いです。<BR>
 
 ### ファームウエア
 
@@ -111,7 +111,11 @@ AD9851モジュール：eBayで中国直送＠1400、国内＠2000ぐらいか�
 2016.4.3。PICマニュアルのI/Oポートのセクションに、連続のビット出力はPORTに書き込むのでなくLATに書き込むべき、との記載を見つけて直しましたが、位相などの動作は変わりませんでした。  
 
 ---
-このページの内容はMITライセンスの下で提供されています。
-ソースコードにはMicrochipのSOFTWARE LICENSE AGREEMENTの残骸も残っています。
-掲載した情報は検証はしていますが、ご利用はご自身のご責任でどうぞ。DDSのボードを改造して壊したりしてもしりません。  
----Mizutani Lab---
+このページの内容はMITライセンスの下で提供されています。掲載した情報は検証はしていますが、ご利用はご自身のご責任でどうぞ。  
+<A href="https://mizutanilab.github.io/">Mizutani Lab</A> - 
+<A href="https://sites.google.com/site/portablesdr/">Google sites</A> - 
+<A href="http://www.youtube.com/user/mizutaniLab">YouTube</A><BR>
+<A href="https://github.com/mizutanilab/">GitHub</A> - 
+<A href="https://github.com/mizutanilab/SDR-X">SDR-X</A> - 
+<A href="https://github.com/mizutanilab/SDR-V3">SDR-V3</A>
+
