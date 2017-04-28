@@ -114,8 +114,8 @@ AD9851モジュール：eBayで中国直送＠1400、国内＠2000ぐらいか�
 このページの内容はMITライセンスの下で提供されています。掲載した情報は検証はしていますが、ご利用はご自身のご責任でどうぞ。  
 <A href="https://github.com/mizutanilab/SDR-X">SDR-X</A> - 
 <A href="https://github.com/mizutanilab/SDR-V3">SDR-V3</A> - 
-<A href="https://sites.google.com/site/portablesdr/">Google sites</A><BR><BR>
-<A href="https://mizutanilab.github.io/">Mizutani Lab</A> - 
+<A href="https://sites.google.com/site/portablesdr/">Google sites</A> - 
 <A href="https://github.com/mizutanilab/">GitHub</A> - 
-<A href="http://www.youtube.com/user/mizutaniLab">YouTube</A><BR>
+<A href="http://www.youtube.com/user/mizutaniLab">YouTube</A> - 
+<A href="https://mizutanilab.github.io/">Mizutani Lab</A><BR>
 
