@@ -1,4 +1,4 @@
-## Portable and standalone SDR using AD9851 DDS
+## <a href="https://github.com/mizutanilab/SDR-V3">Portable and standalone SDR using AD9851 DDS</a>
 ポータブルでスタンドアローンなソフトウェアラジオの製作例です。DDSのAD9851とミキサ612を使った構成で、国内AMから案外遠くの短波放送まで聞けます。スペクトル（スペクトラム）が出て、ウォーターフォール表示できて、長波～短波をカバーしています。シリーズで<A href="https://github.com/mizutanilab/SDR-X">Si5351A採用のSDR</A>もあります。
 
 <IMG alt=overall src="img/SDR3overall.jpg"><BR> 
